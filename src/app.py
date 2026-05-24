@@ -16,7 +16,7 @@ def status():
 
 @app.route("/")
 def home():
-    return "Sistema de Gerenciamento de Biblioteca"
+    return "Sistema de Biblioteca online"
 
 @app.route("/sobre")
 def sobre():
