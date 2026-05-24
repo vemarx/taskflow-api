@@ -29,3 +29,7 @@ def livros():
 @app.route("/autores")
 def autores():
     return "Lista de autores cadastrados"
+
+@app.route("/contato")
+def contato():
+    return "Página de contato do sistema"
